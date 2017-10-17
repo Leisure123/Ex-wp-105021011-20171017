@@ -43,8 +43,8 @@ public class LoginFrame extends JFrame{
         btnLogin.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if(tfID.getText().equals("Leisure")){
-                    if((new String(pfPW.getPassword())).equals("3345678")){
+                if(tfID.getText().equals("h304")){
+                    if((new String(pfPW.getPassword())).equals("23323456")){
                         MainFrame mfrm = new MainFrame(LoginFrame.this);
                         mfrm.setVisible(true);
                         LoginFrame.this.setVisible(false);
